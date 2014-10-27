@@ -1,14 +1,14 @@
 Docker Wait
 ============
 
-A node.js binary to that blocks until
-a regex match has been made with docker logs output
+A node.js binary that blocks until
+a regex match has been made with output from docker logs.
 
 The intended use is in bash files for server deployment
 where you want to ensure that a docker container
-has fully loaded before removing an old container
+has fully loaded
 
-Must be run as root (in order to ready docker logs)
+Must be run as root (in order to read your docker logs)
 
 
 ###Installation
